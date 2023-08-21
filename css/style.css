@@ -1399,11 +1399,44 @@ section.hide {
 .thank-you-section {
     text-align: center;
     padding: 100px;
-    height: 100vh;
-    
   }
   
   .thank-you-section h2 {
     color: #3b3939;
-    justify-content: center;
   }
+  
+  .thank-you-info {
+    color: #352a2a;
+    text-align: center;
+    margin-left: 284px;
+    margin-top: -30px;
+  }
+  
+  .centered-heading {
+    margin-bottom: 10px;
+    color: #3e2828;
+  }
+  
+  .centered-paragraph {
+    margin: 0 auto 20px;
+    max-width: 600px; /* Adjust as needed */
+  }
+  
+  .btn-1 {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--skin-color);
+    background-color: transparent;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: none;
+  }
+  
+  .btn-1:after {
+    border-radius: 30px;
+  }
+  
