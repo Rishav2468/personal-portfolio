@@ -1393,3 +1393,17 @@ section.hide {
     text-align: right;
     padding: 0 15px;
 }
+
+
+/* Your existing styles for about-section, section-title, about-img, social-links, about-info, and about-tabs can be added here */
+.thank-you-section {
+    text-align: center;
+    padding: 100px;
+    height: 100vh;
+    
+  }
+  
+  .thank-you-section h2 {
+    color: #3b3939;
+    justify-content: center;
+  }
