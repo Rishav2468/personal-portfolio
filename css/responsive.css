@@ -76,6 +76,9 @@
         left: -30px;
         right: auto;
     }
+    .contact-section .submit-btn {
+        margin-top: -90px
+    }
 
 }
 
