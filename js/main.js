@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function() {
       var formData = new FormData(contactForm);
   
       var xhr = new XMLHttpRequest();
-      xhr.open("POST", "js/send_email.php", true);
+      xhr.open("POST", "send_email.php", true);
       xhr.onreadystatechange = function () {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
           alert("Message sent successfully!");
