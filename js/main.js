@@ -237,22 +237,22 @@ window.addEventListener("load", () => {
 
 
 // contact form js
-document.addEventListener("DOMContentLoaded", function() {
-    var contactForm = document.querySelector(".contact-form form");
+// document.addEventListener("DOMContentLoaded", function() {
+//     var contactForm = document.querySelector(".contact-form form");
   
-    contactForm.addEventListener("submit", function(event) {
-      event.preventDefault();
+//     contactForm.addEventListener("submit", function(event) {
+//       event.preventDefault();
   
-      var formData = new FormData(contactForm);
+//       var formData = new FormData(contactForm);
   
-      var xhr = new XMLHttpRequest();
-      xhr.open("POST", "send_email.php", true);
-      xhr.onreadystatechange = function () {
-        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-          alert("Message sent successfully!");
-        }
-      };
-      xhr.send(formData);
-    });
-  });
+//       var xhr = new XMLHttpRequest();
+//       xhr.open("POST", "send_email.php", true);
+//       xhr.onreadystatechange = function () {
+//         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+//           alert("Message sent successfully!");
+//         }
+//       };
+//       xhr .send(formData);
+//     });
+//   });
     
