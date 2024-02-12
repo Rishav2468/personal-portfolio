@@ -32,7 +32,20 @@ body.dark {
     --inner-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #363636;
     --inner-shadow-0: inset 0 0 0 #222327, inset 0 0 0 #363636;
 }
+@media (max-width: 768px) {
+    .logo {
+        justify-content: center; /* Center the logo on smaller screens */
+        margin-bottom: 20px; /* Add some space below the logo for better visual appearance */
+    }
 
+    .logo-image {
+        height: auto; /* Allow the height to adjust automatically */
+        width: 120px; /* Adjust the width based on the screen width */
+        max-width: 200px;
+        margin-left: 100px;
+        margin-top: -20px; /* Set a maximum width to avoid stretching on larger screens */
+    }
+}
 body {
     font-size: 16px;
     line-height: 1.5;
@@ -75,7 +88,6 @@ img {
     vertical-align: middle;
     max-width: 100%;
 }
-
 .container {
     max-width: 1140px;
     margin: auto;
