@@ -31,6 +31,7 @@ if(localStorage.getItem("color") !== null){
 }
 
 
+
 // theme light and dark mode
 
     const dayNight = document.querySelector(".day-night");
